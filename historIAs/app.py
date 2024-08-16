@@ -5,7 +5,7 @@ import google.generativeai as gemini
 
 app = Flask(__name__)
 CORS(app)
-gemini.configure(api_key="AIzaSyBfTp-LJJnzKRKlGebdJ2x0uRssDf08J6Q")
+gemini.configure(api_key="coloque aqui a sua chave")
 model = gemini.GenerativeModel('gemini-1.5-flash')
 
 @app.route('/')
