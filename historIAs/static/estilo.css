@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    padding: 2%;
+    margin-bottom: 100px;
+}
+.formulario {
+    border: 1px solid #7e7d7d;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 2%;
+    background-color: #fff5d0;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+.response {
+    margin: 10px auto;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: none;
+    max-width: 600px;
+    background-color: #fff5d0;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.titulo-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0;
+    flex-direction: column;
+}
+.titulo-input {
+    flex: 1;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+}
+.btn-primary {
+    background-color: aqua;
+}
+.btn-danger {
+    background-color: crimson;
+    color: azure;
+}
+.btn-success {
+    background-color: #708240;
+    color: #fff5d0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
+}
+.footer {
+    background-color: #fff5d0;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+@media (min-width: 600px) {
+    .titulo-row {
+        flex-direction: row;
+    }
+
+    .titulo-input {
+        width: auto;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+    .btn-success {
+        width: auto;
+    }
+}
